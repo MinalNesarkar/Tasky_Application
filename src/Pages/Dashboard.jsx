@@ -4,7 +4,7 @@ import Sidebar from '../Components/sideNav';
 function Dashboard() {
   return (
     <div>
-     
+        Dashboard!
     </div>
   )
 }

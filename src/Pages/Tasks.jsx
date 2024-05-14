@@ -5,11 +5,12 @@ import { RiEdit2Line } from 'react-icons/ri';
 
 function Tasks() {
   const defaultEntries = [
-    { id:1,title: 'User Flow', description: 'Designing a dashboard involves of creating interface' , status: 'High'},
-    { id:2, title: 'Website Design', description: 'Designing a dashboard involves of creating interface' , status: 'Medium'},
-    { id:3, title: 'User Flow', description: 'Designing a dashboard involves of creating interface' , status: 'High'},
-    { id:4, title: 'Website Design', description: 'Designing a dashboard involves of creating interface', status: 'High'},
-    { id:5, title: 'User Flow', description: 'Designing a dashboard involves of creating interface' , status: 'Low',position: 'UI/UX'}
+    { id:1,title: 'User Flow', description: 'Designing a dashboard involves of creating interface,Designing a dashboard involves of creating interface' , status: 'High'},
+    { id:2, title: 'Website Design', description: 'Designing a dashboard involves of creating interface,Designing a dashboard involves of creating interface' , status: 'Medium'},
+    { id:2, title: 'Website Design', description: 'Designing a dashboard involves of creating interface,Designing a dashboard involves of creating interface' , status: 'Medium'},
+    { id:3, title: 'User Flow', description: 'Designing a dashboard involves of creating interfaceDesigning a dashboard involves of creating interface' , status: 'High'},
+    { id:4, title: 'Website Design', description: 'Designing a dashboard involves of creating interfaceDesigning a dashboard involves of creating interface', status: 'High'},
+    { id:5, title: 'User Flow', description: 'Designing a dashboard involves of creating interface Designing a dashboard involves of creating interface' , status: 'Low',position: 'UI/UX'}
   ];
   useEffect(() => {
     setCards(defaultEntries);
